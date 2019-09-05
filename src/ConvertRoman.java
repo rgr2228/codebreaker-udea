@@ -72,8 +72,8 @@ public class ConvertRoman {
 		}
 	}
 
-	public int operateDecimal(int decimal, int lastNumber, int lastDecimal){
-		if (lastNumber > decimal) {
+	public int operateDecimal(int decimal, int lastNumb, int lastDecimal){
+		if (lastNumb > decimal) {
 			return lastDecimal - decimal;
 		} else {
 			return lastDecimal + decimal;
